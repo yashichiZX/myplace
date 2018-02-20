@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*
+ *  色の定義
+ *
+  */
+/*全体背景*/
+/*パーツ背景*/
+/*文字色 - 通常*/
+/*全体共通*/
+/* line 14, ../sass/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 17, ../sass/style.scss */
+body {
+  background-color: rgba(246, 248, 248, 0.93) !important;
+}
+
+/* スマホに適用するスタイルを書く */
+@media screen and (max-width: 599px) {
+  /* line 23, ../sass/style.scss */
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 959px) {
+  /* タブレットに適用したいスタイル */
+}
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+  /* 通常のデスクトップに適用したいスタイル */
+}
+@media screen and (min-width: 1281px) {
+  /* 横幅の広いデスクトップに適用したいスタイル */
+}
