@@ -100,21 +100,29 @@ body {
     height: auto;
     margin: 0 10px;
   }
-  /* line 116, ../sass/style.scss */
+}
+@media screen and (max-width: 575px) and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 115, ../sass/style.scss */
+  .container #curtains nav ul li img {
+    height: 55px;
+  }
+}
+@media screen and (max-width: 575px) {
+  /* line 121, ../sass/style.scss */
   .container #curtains nav ul h2 {
     margin: 8px 10px;
     font-size: 26px;
   }
-  /* line 124, ../sass/style.scss */
+  /* line 129, ../sass/style.scss */
   .container #toBeContinued {
     margin-bottom: 2em;
     padding: 36px;
   }
-  /* line 129, ../sass/style.scss */
+  /* line 134, ../sass/style.scss */
   .container #endCall {
     text-align: center;
   }
-  /* line 132, ../sass/style.scss */
+  /* line 137, ../sass/style.scss */
   .container #endCall small {
     margin: 30px 0 20px 0;
     display: block;
